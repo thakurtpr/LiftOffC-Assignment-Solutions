@@ -16,19 +16,19 @@ int main()
    {
     printf("Grade A");
    }
-   else if(percentage>=80)
+   else if(percentage>=80&&percentage<90)
    {
     printf("Grade B");
    }
-   else if(percentage>=70)
+   else if(percentage>=70&&percentage<80)
    {
     printf("Grade C");
    }  
-   else if(percentage>=60)
+   else if(percentage>=60&&percentage<70)
    {
     printf("Grade D");
    }
-   else if(percentage>=40)
+   else if(percentage>=40&&percentage<60)
    {
     printf("Grade E");
    }
